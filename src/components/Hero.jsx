@@ -1,4 +1,5 @@
 import snrnest from "../assets/snrnest.png";
+
 export default function Hero() {
   return (
     <div
@@ -33,14 +34,16 @@ export default function Hero() {
             </div>
 
             <div className="d-flex gap-3">
-                <a href="#contact">
-                    <button className="btn btn-outline-light btn-lg">Contact Us</button>
-                </a>
+              <a href="#contact">
+                <button className="btn btn-outline-light btn-lg">
+                  Contact Us
+                </button>
+              </a>
             </div>
           </div>
 
           {/* Right Content */}
-          <div className="col-lg-6 text-center">
+          <div className="col-lg-6 text-center mt-4 mt-lg-0">
             <img
               src={snrnest}
               alt="Job Consultancy"
